@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1069197085511",
+    "project_id": "eventit-d8971",
+    "storage_bucket": "eventit-d8971.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069197085511:android:b554cb778a0b7eddcc1a62",
+        "android_client_info": {
+          "package_name": "com.example.event_it"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeC2XKZFnhgaJDE3hCfwoaZRKwP4QYWlk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
