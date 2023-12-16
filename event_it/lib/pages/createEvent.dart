@@ -20,7 +20,7 @@ class _CreateEventState extends State<CreateEvent> {
 
   File? image1;
 
-  String imgUrl= "";
+  String imgUrl = "";
 
   Future pickImage(ImageSource source) async {
     try {
@@ -145,7 +145,12 @@ class _CreateEventState extends State<CreateEvent> {
                         backColor: AppTheme.slightBlack,
                       ),
                       onPressed: () {
-                        nextScreen(context, createEvent2(image: image1!, imgUrl: imgUrl,));
+                        nextScreen(
+                            context,
+                            createEvent2(
+                              image: image1!,
+                              imgUrl: imgUrl,
+                            ));
                       },
                       child: Text(
                         "Next",
